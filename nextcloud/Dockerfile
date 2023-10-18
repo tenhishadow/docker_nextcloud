@@ -1,2 +1,2 @@
-FROM nextcloud:stable-fpm-alpine
+FROM nextcloud:stable-fpm
 RUN apk --no-cache add samba-client ffmpeg
